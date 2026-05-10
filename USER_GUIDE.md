@@ -10,7 +10,7 @@ To use this program, you will need to build it first. Please follow the "How to 
 1. **Total Points Possible:** When you first run the program, you are prompted to enter the total number of points available in the entire course (e.g., 1000). This should be a whole number.
 2. **Grading Scheme:** The program will ask for the minimum points needed to earn an A, B, C, and D. Enter these numbers one by one as prompted. (e.g., A = 900, B = 800, and so on.)
 3. **Grade Calculation:** - First, type the **Name** of the assignment (e.g., Homework 1). Then type the **Score** you earned (e.g., 95). Till you've input all your scores and Names into the program.
-4. **Stopping the Program:** When you have no more assignments to enter, type any **negative number** (like -1) for the score. This tells the program to stop and calculate your final grade from Highest to Lowest
+4. **Stopping the Program:** When you have no more assignments to enter, type any **negative number** (like -1) for the score. This tells the program to stop and calculate your final grade. 
 
 **This is a sample of what should be displayed on your screen**
 ```text
@@ -45,25 +45,17 @@ Please input the name for Assignment 2: quiz 1
 Please input the points earned for Assignment 3: 18
 Please input the name for Assignment 3: Test 1
 Please input the points earned for Assignment 4: 6
-Please input the name for Assignment 4: hmerk 2
-Please input the points earned for Assignment 5: 10
-Please input the name for Assignment 5: quiz 2 
-Please input the points earned for Assignment 6: 15
-Please input the name for Assignment 6: test 2
-Please input the points earned for Assignment 7: -1
+... [Program continues] ...
 
-Assignments Sorted by Score (Highest to Lowest)
-===============================================
-Test 1: 18 points
-quiz 1: 15 points
-test 2: 15 points
-hmwrk 1: 10 points
-quiz 2 : 10 points
-hmerk 2: 6 points
+```
 
+## Understanding Your Results
+Once you have finished entering your scores, the program will display a summary. Here is how to read it:
+**Ranked Assignments:** This is a list of every assignment you entered, sorted from your highest score to your lowest score. This helps you quickly see which assignments helped your grade the most.
+**Total Points Earned:** This is the sum of every score you typed in.Total Points Possible: This is the maximum number of points you could have earned in the course (the very first number you entered when the program started).
+**Total Percentage:** This is your "raw score" calculated by dividing your earned points by the possible points. The program rounds this to the nearest whole number (e.g., $89.5\%$ becomes $90\%$).
+**Final Letter Grade:** This is the 'A', 'B', 'C', 'D', or 'F' you earned. The program compares your Total Points Earned against the Grading Scheme you set at the beginning to determine this letter.
 
-Final Results
-Total Points Earned: 74
-Total Points Possible: 100
-Total Percentage: 74%
-Final Letter Grade: C
+## Troubleshooting
+Invalid Input: If the program crashes or acts strange, make sure you are typing numbers for scores. If you type a letter (like "A") when the program expects a number, it will cause an error.
+Why the Program Won't Stop: To finish entering grades and see your results, you must enter a negative number (like -1) for the assignment score.
