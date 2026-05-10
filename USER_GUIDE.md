@@ -46,16 +46,14 @@ Please input the points earned for Assignment 3: 18
 Please input the name for Assignment 3: Test 1
 Please input the points earned for Assignment 4: 6
 ... [Program continues] ...
-
 ```
-
 ## Understanding Your Results
 Once you have finished entering your scores, the program will display a summary. Here is how to read it:
-**Ranked Assignments:** This is a list of every assignment you entered, sorted from your highest score to your lowest score. This helps you quickly see which assignments helped your grade the most.
-**Total Points Earned:** This is the sum of every score you typed in.Total Points Possible: This is the maximum number of points you could have earned in the course (the very first number you entered when the program started).
-**Total Percentage:** This is your "raw score" calculated by dividing your earned points by the possible points. The program rounds this to the nearest whole number (e.g., $89.5\%$ becomes $90\%$).
-**Final Letter Grade:** This is the 'A', 'B', 'C', 'D', or 'F' you earned. The program compares your Total Points Earned against the Grading Scheme you set at the beginning to determine this letter.
+- **Ranked Assignments:** This is a list of every assignment you entered, sorted from your highest score to your lowest score. This helps you quickly see which assignments helped your grade the most.
+- **Total Points Earned:** This is the sum of every score you typed in.Total Points Possible: This is the maximum number of points you could have earned in the course (the very first number you entered when the program started).
+- **Total Percentage:** This is your "raw score" calculated by dividing your earned points by the possible points. The program rounds this to the nearest whole number (e.g., $89.5\%$ becomes $90\%$).
+- **Final Letter Grade:** This is the 'A', 'B', 'C', 'D', or 'F' you earned. The program compares your Total Points Earned against the Grading Scheme you set at the beginning to determine this letter.
 
 ## Troubleshooting
-Invalid Input: If the program crashes or acts strange, make sure you are typing numbers for scores. If you type a letter (like "A") when the program expects a number, it will cause an error.
-Why the Program Won't Stop: To finish entering grades and see your results, you must enter a negative number (like -1) for the assignment score.
+- **Invalid Input:** If the program crashes or acts strange, make sure you are typing numbers for scores. If you type a letter (like "A") when the program expects a number, it will cause an error.
+- **Why the Program Won't Stop:** To finish entering grades and see your results, you must enter a negative number (like -1) for the assignment score.
